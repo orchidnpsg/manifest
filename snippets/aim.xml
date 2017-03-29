@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="aim" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="aim" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="aim" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="aim" />
+  <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="aim" />
+  <project path="packages/apps/AIMUpdater" name="android_packages_apps_AIMUpdater" remote="aim" />
+  <project path="packages/apps/ContactsCommon" name="android_packages_apps_ContactsCommon" remote="aim" />
+  <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" remote="aim" />
+  <project path="packages/apps/ThemeInterfacer" name="substratum/interfacer" remote="github" revision="n-rootless" />
+  <project path="prebuilts/clang/linux-x86/host/sdclang-3.8" name="android_prebuilts_clang_linux-x86_host_sdclang-3.8" remote="aim" />
+  <project path="system/sepolicy" name="android_system_sepolicy" remote="aim" />
+  <project path="vendor/aim" name="android_vendor_aim" remote="aim" />
+</manifest>
