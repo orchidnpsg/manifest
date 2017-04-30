@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" />
   <project path="frameworks/av" name="android_frameworks_av" remote="aim" />
   <project path="frameworks/base" name="android_frameworks_base" remote="aim" />
   <project path="frameworks/native" name="android_frameworks_native" remote="aim" />
