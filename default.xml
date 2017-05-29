@@ -19,8 +19,8 @@
            sync-j="4" />
 
   <remote  name="aim"
-	   fetch="https://github.com/AIMROM"
-	   revision="N" />
+     fetch="https://github.com/AIMROM"
+     revision="N" />
 
   <!-- AOSP Projects -->
 
