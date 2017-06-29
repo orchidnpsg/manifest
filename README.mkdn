@@ -30,7 +30,9 @@ With X being the number of parallel downloads
 From root directory of AIM type following commands in terminal
 
 	. build/envsetup.sh
-
+   
+    lunch aim_$devicecodename-$BuildType
+   
 	brunch $devicecodename
 
 Example
@@ -40,6 +42,8 @@ If your device code name is "goldfish", then:
 
 	. build/envsetup.sh
 
+    lunch aim_goldfish-userdebug
+
 	brunch goldfish
 
 Obtaining the compiled zip
@@ -47,4 +51,4 @@ Obtaining the compiled zip
 
 From the root directory of AIM type following commands in the terminal
 
-	cd $OUT
+	cd $OUT/target/product/$devicecodename/$aim*.zip
