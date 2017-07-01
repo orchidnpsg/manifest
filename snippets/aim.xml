@@ -8,6 +8,7 @@
   <project path="frameworks/native" name="android_frameworks_native" remote="aim" />
   <project path="frameworks/support" name="android_frameworks_support" remote="aim" />
   <project path="packages/apps/AimWizard" name="packages_apps_AimWizard" remote="aim" />
+  <project path="packages/apps/Amify" name="packages_apps_Amify" remote="aim" revision="N" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="aim" />
   <project path="packages/apps/Contacts" name="LineageOMS/android_packages_apps_Contacts" remote="github" />
   <project path="packages/apps/ContactsCommon" name="LineageOMS/android_packages_apps_ContactsCommon" remote="github" />
