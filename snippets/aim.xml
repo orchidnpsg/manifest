@@ -10,6 +10,7 @@
   <project path="packages/apps/AimWizard" name="packages_apps_AimWizard" remote="aim" />
   <project path="packages/apps/Amify" name="packages_apps_Amify" remote="aim" revision="N" />
   <project path="packages/apps/freedomhub" name="packages_apps_freedomhub" remote="aim" revision="N" />
+  <project path="packages/apps/AimOTA" name="packages_apps_AimOTA" remote="aim" revision="N"/>
   <project path="packages/apps/Settings" name="aim_packages_apps_Settings" remote="aim" revision="N" />
   <project path="packages/apps/Contacts" name="LineageOMS/android_packages_apps_Contacts" remote="github" />
   <project path="packages/apps/ContactsCommon" name="LineageOMS/android_packages_apps_ContactsCommon" remote="github" />
