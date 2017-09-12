@@ -58,7 +58,7 @@
 
    <!-- vendor/qcom/opensource/dataservice -->
    <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="aim" />
-   <project name="vendor_qcom_opensource_interfaces" name="vendor_qcom_opensource_interfaces" remote="aim" />
+   <project path="vendor/qcom/opensource/interfaces" name="vendor_qcom_opensource_interfaces" remote="aim" />
 <!-- ============================ CUSTOM TRACKS START FROM HERE ============================ -->
 
 </manifest>
