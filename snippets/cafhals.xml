@@ -40,11 +40,6 @@
    <project path="vendor/qcom/opensource/cryptfs_hw" name="vendor_qcom_opensource_cryptfs_hw" remote="tesla" />
    <project path="vendor/qcom/opensource/dpm" name="vendor_qcom_opensource_dpm" remote="tesla" />
 
- 
-
-	<!-- Device -->
-   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="tesla" />
-
 
 <!-- External -->
    <project path="external/libnetfilter_conntrack" name="external_libnetfilter_conntrack" remote="tesla" />
