@@ -43,7 +43,6 @@
  
 
 	<!-- Device -->
-   <project path="device/qcom/common" name="device_qcom_common" remote="tesla" />
    <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="tesla" />
 
 
