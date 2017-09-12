@@ -44,6 +44,9 @@
    <project path="hardware/qcom/bt-caf" name="hardware_qcom_bt" groups="qcom" remote="aim" revision="o-caf" />
    <project path="hardware/qcom/bt" name="hardware_qcom_bt" groups="qcom" remote="aim" />
 
+   <!-- vendor/qcom/opensource/dataservice -->
+   <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="aim" />
+
 <!-- ============================ CUSTOM TRACKS START FROM HERE ============================ -->
 
 </manifest>
