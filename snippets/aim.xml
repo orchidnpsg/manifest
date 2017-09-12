@@ -32,7 +32,7 @@
   <project path="hardware/qcom/gps" name="hardware_qcom_gps" groups="qcom,qcom_gps" remote="aim" />
   <project path="system/qcom" name="system_qcom" groups="pdk" remote="aim" />
   <project path="system/vold" name="system_vold" groups="pdk" remote="aim" /> 
-
+  
  
   <!-- caf repos -->
    
@@ -50,7 +50,7 @@
 
    <!-- vendor/qcom/opensource/dataservice -->
    <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="aim" />
-
+   <project name="vendor_qcom_opensource_interfaces" name="vendor_qcom_opensource_interfaces" remote="aim" />
 <!-- ============================ CUSTOM TRACKS START FROM HERE ============================ -->
 
 </manifest>
