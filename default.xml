@@ -21,6 +21,13 @@
  		   sync-c="true"
            sync-f="true" />
 
+  <remote  name="los"
+            fetch="https://github.com/lineageos"
+            sync-c="true"
+            sync-f="true"
+            sync-j="8"
+            revision="lineage-15.0" />
+
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
   <project path="art" name="platform/art" groups="pdk" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
