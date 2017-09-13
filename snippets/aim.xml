@@ -40,6 +40,7 @@
   <project path="system/media" name="system_media" groups="pdk" remote="aim" />
   <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" groups="pdk" remote="aim" />
   <project path="development" name="platform_development" groups="pdk-cw-fs,pdk-fs" remote="aim" />
+  <project path="hardware/interfaces" name="hardware_interfaces" groups="pdk" remote="aim" />
 
   <!-- Telephony thingie -->
    <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk" remote="aim" />
