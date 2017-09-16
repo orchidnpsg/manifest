@@ -45,6 +45,9 @@
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" groups="pdk-fs" remote="aim" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" groups="pdk-fs" remote="aim" />  
 
+<!-- freedomhub -->
+ <project path="packages/apps/freedomhub" name="packages_apps_Lets-Amify" groups="pdk-fs" remote="aim" />  
+
 <!-- Telephony thingie -->
    <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk" remote="aim" />
    <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="aim" />
