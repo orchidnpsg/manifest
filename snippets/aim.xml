@@ -41,8 +41,11 @@
   <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" groups="pdk" remote="aim" />
   <project path="development" name="platform_development" groups="pdk-cw-fs,pdk-fs" remote="aim" />
   <project path="hardware/interfaces" name="hardware_interfaces" groups="pdk" remote="aim" />
+  <project path="packages/apps/Dialer" name="packages_apps_Dialer" groups="pdk-fs" remote="aim" />
+  <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" groups="pdk-fs" remote="aim" />
+  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" groups="pdk-fs" remote="aim" />  
 
-  <!-- Telephony thingie -->
+<!-- Telephony thingie -->
    <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk" remote="aim" />
    <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="aim" />
    <project path="packages/services/Telephony" name="packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="aim" /> 
