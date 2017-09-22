@@ -8,11 +8,6 @@
            sync-j="8"
            revision="8.0" />
 
-  <!-- tesla remote -->
-  <remote  name="tesla"
-           fetch="https://github.com/teslarom-N/"
-		   revision="n7.1.2" />
- 
 
 <!-- AIM ROM -->
  
@@ -48,9 +43,9 @@
   <project path="hardware/qcom/media-caf/msm8998" name="hardware_qcom_media" groups="qcom" remote="gzosp" revision="8.0-caf-8998" />
 
    <!-- Vendors -->
-   <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="tesla" />
+   <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="gzosp" />
    <project path="vendor/qcom/opensource/cryptfs_hw" name="vendor_qcom_opensource_cryptfs_hw" remote="gzosp" />
- <!--  <project path="vendor/qcom/opensource/dpm" name="vendor_qcom_opensource_dpm" remote="aim" /> -->
+   <!-- <project path="vendor/qcom/opensource/dpm" name="vendor_qcom_opensource_dpm" remote="gzosp" /> -->
 
 
 <!-- External -->
