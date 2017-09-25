@@ -5,7 +5,7 @@
             fetch="https://github.com" />
  
    <remote  name="aim"
-            fetch="https://github.com/AOS-AR"
+            fetch="https://github.com/AIMROM"
             sync-c="true"
             sync-f="true"
             sync-j="8"

@@ -3,7 +3,7 @@
   
 <project path="manifest" name="manifest" remote="aim"  />
 
- <project path="build/make" name="platform_build" groups="pdk" remote="aim">
+ <project path="build/make" name="android_build" groups="pdk" remote="aim">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -18,13 +18,13 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project> 
 
-  <project path="bionic" name="bionic" groups="pdk" remote="aim" />
-  <project path="frameworks/base" name="framework_base" groups="pdk-cw-fs,pdk-fs" remote="aim"/>
+  <project path="bionic" name="android_bionic" groups="pdk" remote="aim" />
+  <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="aim"/>
   <project path="system/core" name="system_core" groups="pdk" remote="aim"/>
-  <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="aim" />
+  <project path="packages/apps/Settings" name="Aim_packages_apps_Settings" groups="pdk-fs" remote="aim" />
   <project path="vendor/aim" name="android_vendor_aim" remote="aim" />
-  <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="aim" />
-  <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="aim" />
+  <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="aim" />
+  <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="aim" />
   <project path="device/aim/sepolicy" name="device_aim_sepolicy" remote="aim" />
   <project path="hardware/libhardware" name="hardware_libhardware" groups="pdk" remote="aim" />
   <project path="build/kati" name="build_kati" groups="pdk,tradefed" remote="aim" />
@@ -46,7 +46,7 @@
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" groups="pdk-fs" remote="aim" />  
 
 <!-- freedomhub -->
- <project path="packages/apps/freedomhub" name="packages_apps_Lets-Amify" groups="pdk-fs" remote="aim" />  
+ <project path="packages/apps/freedomhub" name="packages_apps_freedomhub" groups="pdk-fs" remote="aim" />  
 
 <!-- Telephony thingie -->
    <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk" remote="aim" />
