@@ -81,8 +81,8 @@
 
 <!-- ============================ CUSTOM TRACKS START FROM HERE ============================ -->
 
-<!-- lineageos -->
-<project path="device/qcom/common" name="android_device_qcom_common" remote="los" />
+<!-- AIM -->
+<project path="device/qcom/common" name="android_device_qcom_common" remote="aim" revision="o" />
 
 </manifest>
 
