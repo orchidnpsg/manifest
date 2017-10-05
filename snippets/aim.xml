@@ -18,6 +18,10 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project> 
 
+<project path="hardware/aim/interfaces" name="hardware_aim_interfaces" remote="aim" >
+       <copyfile dest="hardware/aim/Android.bp" src="Android.bp"/>
+   </project>
+
   <project path="bionic" name="android_bionic" groups="pdk" remote="aim" />
   <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="aim"/>
   <project path="system/core" name="system_core" groups="pdk" remote="aim"/>
