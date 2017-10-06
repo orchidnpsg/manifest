@@ -48,6 +48,8 @@
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" groups="pdk-fs" remote="aim" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" groups="pdk-fs" remote="aim" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" groups="pdk-fs" remote="aim" />  
+  <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" groups="pdk-cw-fs,pdk-fs" remote="aim" />
+  <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" groups="pdk-fs" remote="aim" />
 
 <!-- freedomhub -->
  <project path="packages/apps/freedomhub" name="packages_apps_freedomhub" groups="pdk-fs" remote="aim" />  
@@ -56,8 +58,7 @@
    <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk" remote="aim" />
    <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="aim" />
    <project path="packages/services/Telephony" name="packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="aim" /> 
-
- 
+   <project path="packages/services/Telecomm" name="packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="aim" />
 
   <!-- caf repos -->
    
