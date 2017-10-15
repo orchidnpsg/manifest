@@ -52,6 +52,10 @@
   <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" groups="pdk-cw-fs,pdk-fs" remote="aim" />
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" groups="pdk-fs" remote="aim" />
 
+<!-- sepolicy stuffs -->
+  <project path="system/sepolicy" name="platform_system_sepolicy" groups="pdk" remote="aim" />
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" groups="pdk" remote="aim" />
+
 <!-- freedomhub -->
  <project path="packages/apps/freedomhub" name="packages_apps_freedomhub" groups="pdk-fs" remote="aim" />  
 
