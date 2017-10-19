@@ -2,7 +2,7 @@
 <manifest>
   <project path="bionic" name="android_bionic" remote="aim" />
   <project path="development" name="android_development" remote="aim" />
-  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="aim" revision="N" />
+  <project path="device/qcom/sepolicy" name="aim_device_qcom_sepolicy_N" remote="aim" revision="N" />
   <project path="frameworks/av" name="android_frameworks_av" remote="aim" />
   <project path="frameworks/base" name="android_frameworks_base" remote="aim" />
   <project path="frameworks/native" name="android_frameworks_native" remote="aim" />
