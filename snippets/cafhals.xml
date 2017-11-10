@@ -8,39 +8,38 @@
            sync-j="8"
            revision="8.0" />
 
+ <remote  fetch="git://codeaurora.org/quic/la"
+           name="caf"
+           review="codeaurora.org"/>
 
 <!-- AIM ROM -->
  
-<!-- audio msm8916-caf --> 
-<project path="hardware/qcom/audio-caf/msm8916" name="hardware_qcom_audio" groups="qcom,qcom_audio" remote="aim" revision="o-caf" />
-
-<!-- HardWare QCOM -->
-  <project path="hardware/qcom/audio-caf/apq8084" name="hardware_qcom_audio" groups="qcom,qcom_audio" remote="gzosp" revision="8.0-caf-8084" />
-  <project path="hardware/qcom/audio-caf/msm8937" name="hardware_qcom_audio" groups="qcom,qcom_audio" remote="gzosp" revision="8.0-caf-8937" />
-  <project path="hardware/qcom/audio-caf/msm8952" name="hardware_qcom_audio" groups="qcom,qcom_audio" remote="gzosp" revision="8.0-caf-8952" />
-  <project path="hardware/qcom/audio-caf/msm8960" name="hardware_qcom_audio" groups="qcom,qcom_audio" remote="gzosp" revision="8.0-caf-8960" />
-  <project path="hardware/qcom/audio-caf/msm8974" name="hardware_qcom_audio" groups="qcom,qcom_audio" remote="gzosp" revision="8.0-caf-8974" />
-  <project path="hardware/qcom/audio-caf/msm8994" name="hardware_qcom_audio" groups="qcom,qcom_audio" remote="gzosp" revision="8.0-caf-8994" />
-  <project path="hardware/qcom/audio-caf/msm8996" name="hardware_qcom_audio" groups="qcom,qcom_audio" remote="gzosp" revision="8.0-caf-8996" />
-  <project path="hardware/qcom/audio-caf/msm8998" name="hardware_qcom_audio" groups="qcom,qcom_audio" remote="gzosp" revision="8.0-caf-8998" />
-  <project path="hardware/qcom/display-caf/apq8084" name="hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="gzosp" revision="8.0-caf-8084" />
-  <project path="hardware/qcom/display-caf/msm8916" name="hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="gzosp" revision="8.0-caf-8916" />
-  <project path="hardware/qcom/display-caf/msm8937" name="hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="gzosp" revision="8.0-caf-8937" />
-  <project path="hardware/qcom/display-caf/msm8952" name="hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="gzosp" revision="8.0-caf-8952" />
-  <project path="hardware/qcom/display-caf/msm8960" name="hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="gzosp" revision="8.0-caf-8960" />
-  <project path="hardware/qcom/display-caf/msm8974" name="hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="gzosp" revision="8.0-caf-8974" />
-  <project path="hardware/qcom/display-caf/msm8994" name="hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="gzosp" revision="8.0-caf-8994" />
-  <project path="hardware/qcom/display-caf/msm8996" name="hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="gzosp" revision="8.0-caf-8996" />
-  <project path="hardware/qcom/display-caf/msm8998" name="hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="gzosp" revision="8.0-caf-8998" />
-  <project path="hardware/qcom/media-caf/apq8084" name="hardware_qcom_media" groups="qcom" remote="gzosp" revision="8.0-caf-8084" />
-  <project path="hardware/qcom/media-caf/msm8916" name="hardware_qcom_media" groups="qcom" remote="gzosp" revision="8.0-caf-8916" />
-  <project path="hardware/qcom/media-caf/msm8937" name="hardware_qcom_media" groups="qcom" remote="gzosp" revision="8.0-caf-8937" />
-  <project path="hardware/qcom/media-caf/msm8952" name="hardware_qcom_media" groups="qcom" remote="gzosp" revision="8.0-caf-8952" />
-  <project path="hardware/qcom/media-caf/msm8960" name="hardware_qcom_media" groups="qcom" remote="gzosp" revision="8.0-caf-8960" />
-  <project path="hardware/qcom/media-caf/msm8974" name="hardware_qcom_media" groups="qcom" remote="gzosp" revision="8.0-caf-8974" />
-  <project path="hardware/qcom/media-caf/msm8994" name="hardware_qcom_media" groups="qcom" remote="gzosp" revision="8.0-caf-8994" />
-  <project path="hardware/qcom/media-caf/msm8996" name="hardware_qcom_media" groups="qcom" remote="gzosp" revision="8.0-caf-8996" />
-  <project path="hardware/qcom/media-caf/msm8998" name="hardware_qcom_media" groups="qcom" remote="gzosp" revision="8.0-caf-8998" />
+<!-- audio-caf --> 
+  <project path="hardware/qcom/audio-caf/msm8916" name="hardware_qcom_audio" groups="qcom,qcom_audio" remote="aim" revision="o-caf" />
+  <project path="hardware/qcom/audio-caf/msm8960" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="los" revision="lineage-15.0-caf-8960" />
+  <project path="hardware/qcom/audio-caf/msm8974" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="los" revision="lineage-15.0-caf-8974" />
+  <project path="hardware/qcom/audio-caf/msm8994" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="los" revision="lineage-15.0-caf-8994" />
+  <project path="hardware/qcom/audio-caf/msm8996" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="los" revision="lineage-15.0-caf-8996" />
+  <project path="hardware/qcom/audio-caf/msm8998" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="los" revision="lineage-15.0-caf-8998" />
+  <project path="hardware/qcom/audio-caf/msm8952" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="los" revision="lineage-15.0-caf-8952" />
+  
+  <!-- Display-caf --> 
+  <project path="hardware/qcom/display-caf/msm8916" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="los" revision="lineage-15.0-caf-8916" />
+  <project path="hardware/qcom/display-caf/msm8960" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="los" revision="lineage-15.0-caf-8960" />
+  <project path="hardware/qcom/display-caf/msm8974" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="los" revision="lineage-15.0-caf-8974" />
+  <project path="hardware/qcom/display-caf/msm8994" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="los" revision="lineage-15.0-caf-8994" />
+  <project path="hardware/qcom/display-caf/msm8996" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="los" revision="lineage-15.0-caf-8996" />
+  <project path="hardware/qcom/display-caf/msm8998" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="los" revision="lineage-15.0-caf-8998" />
+  <project path="hardware/qcom/display-caf/msm8952" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="los" revision="lineage-15.0-caf-8952" />
+  
+	<!-- Media-caf -->
+  <project path="hardware/qcom/media-caf/msm8916" name="android_hardware_qcom_media" groups="qcom,pdk" remote="los" revision="lineage-15.0-caf-8916" />
+  <project path="hardware/qcom/media-caf/msm8960" name="android_hardware_qcom_media" groups="qcom,pdk" remote="los" revision="lineage-15.0-caf-8960" />
+  <project path="hardware/qcom/media-caf/msm8974" name="android_hardware_qcom_media" groups="qcom,pdk" remote="los" revision="lineage-15.0-caf-8974" />
+  <project path="hardware/qcom/media-caf/msm8994" name="android_hardware_qcom_media" groups="qcom,pdk" remote="los" revision="lineage-15.0-caf-8994" />
+  <project path="hardware/qcom/media-caf/msm8996" name="android_hardware_qcom_media" groups="qcom,pdk" remote="los" revision="lineage-15.0-caf-8996" />
+  <project path="hardware/qcom/media-caf/msm8998" name="android_hardware_qcom_media" groups="qcom,pdk" remote="los" revision="lineage-15.0-caf-8998" />
+  <project path="hardware/qcom/media-caf/msm8952" name="android_hardware_qcom_media" groups="qcom,pdk" remote="los" revision="lineage-15.0-caf-8952" />
 
    <!-- Vendors -->
    <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="gzosp" />
