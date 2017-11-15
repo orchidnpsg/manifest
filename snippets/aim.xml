@@ -116,5 +116,8 @@
 <!-- AIM -->
 <project path="device/qcom/common" name="android_device_qcom_common" remote="aim" revision="o" />
 
+<!-- CRYPTFS_HW -->
+<project path="vendor/qcom/opensource/cryptfs_hw" name="vendor_qcom_opensource_cryptfs_hw" remote="aim"  />
+
 </manifest>
 
