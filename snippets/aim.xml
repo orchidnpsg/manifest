@@ -73,6 +73,7 @@
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" groups="pdk-fs" remote="aim" />
   <project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" remote="aim" />
   <project path="packages/apps/SlimRecents" name="packages_apps_SlimRecents" groups="pdk-fs" remote="aim" />
+  <project path="packages/apps/AIMOTA" name="packages_apps_aimota" groups="pdk-fs" remote="aim" revision="oreo" />
 <!-- sepolicy stuffs -->
   <project path="system/sepolicy" name="platform_system_sepolicy" groups="pdk" remote="aim" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" groups="pdk" remote="aim" />
