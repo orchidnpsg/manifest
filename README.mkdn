@@ -16,7 +16,7 @@ To initialize your local repository, use a command like this:
 
 Then to sync up:
 
-    repo sync  -f --force-sync --no-clone-bundle --no-tags -j8
+    repo sync  -f --force-sync --no-clone-bundle --no-tags -j$(nproc --all)
 
 Additionally, you can define the number of parallel download repo should do:
 
