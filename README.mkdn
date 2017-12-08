@@ -3,52 +3,9 @@
 Aim Rom Oreo source (AOSP)
 ========
 
-[![](https://github.com/AIMROM/manifest/raw/o/gplus.png)](https://plus.google.com/communities/111507505190229665939)[![](https://github.com/AIMROM/manifest/raw/o/tg.png)](https://t.me/joinchat/AAAAAEGlvThIxMq8yPB1JA)
 
-Getting Started
----------------
 
-To get started with the building process, you'll need to get familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
-To initialize your local repository, use a command like this:
 
-    repo init -u git://github.com/AIMROM/manifest.git -b o
-
-Then to sync up:
-
-    repo sync  -f --force-sync --no-clone-bundle --no-tags -j$(nproc --all)
-
-Additionally, you can define the number of parallel download repo should do:
-
-    repo sync -jX -f --force-sync --no-clone-bundle --no-tags
-
-With X being the number of parallel downloads
-
- Building The Project
- ----------------------------------
-
-From root directory of AIM type following commands in terminal
-
-	. build/envsetup.sh
-   
-    lunch aim_$devicecodename-$BuildType
-   
-	brunch $devicecodename
-
-Example
----------------
-
-If your device code name is "goldfish", then:
-
-	. build/envsetup.sh
-
-    lunch aim_goldfish-userdebug
-
-	brunch goldfish
-
-Obtaining the compiled zip
-----------------------------------------------
-
-From the root directory of AIM type following commands in the terminal
-
-	cd $OUT/target/product/$devicecodename/$AIM*.zip
+STAGING TO ANDROID 8.1
+========
