@@ -7,7 +7,7 @@
    <remote  name="aim"
            fetch="https://github.com/AIMROM" />
 
-   <default revision="o"
+   <default revision="o8.1"
            remote="aim"
            sync-f="true"
            sync-c="true"
@@ -18,7 +18,7 @@
             sync-c="true"
             sync-f="true"
             sync-j="8"
-            revision="lineage-15.0" />
+            revision="staging/lineage-15.1" />
 
 
  <project path="manifest" name="manifest" remote="aim"  />
