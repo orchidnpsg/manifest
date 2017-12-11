@@ -48,6 +48,11 @@
   <remove-project name="device/sample" />
 
   <!-- External repos -->
+  <remove-project name="platform/external/libnetfilter_conntrack" />
+  <remove-project name="platform/external/libnfnetlink" />
+  <remove-project name="platform/external/tinycompress" />
+  <remove-project name="platform/external/selinux" />
+  <remove-project name="platform/external/wpa_supplicant_8" />
 
   <!-- Hardware repos -->
   <remove-project name="platform/hardware/intel/audio_media" />
@@ -64,15 +69,40 @@
   <remove-project name="platform/hardware/intel/img/psb_headers" />
   <remove-project name="platform/hardware/intel/img/psb_video" />
   <remove-project name="platform/hardware/intel/sensors" />
+  <!-- custom hardware track -->
+  <remove-project name="platform/hardware/libhardware" />
+  <remove-project name="platform/hardware/libhardware_legacy" />
+  <remove-project name="platform/hardware/ril" />
+  <remove-project name="platform/hardware/qcom/wlan" />
+  <remove-project name="platform/hardware/qcom/bt" />
+  <remove-project name="platform/hardware/qcom/keymaster" />
+  <remove-project name="platform/hardware/interfaces" />
+  <remove-project name="platform/hardware/qcom/gps" />
 
   <!-- General repos -->
-
+  <remove-project name="platform/development" />
+  <remove-project name="platform/bionic" />
+  
+  <!-- build repos -->
+  <remove-project name="platform/build" />
+  <remove-project name="platform/build/soong" />
+  <remove-project name="platform/build/kati" />
 
   <!-- Framework repos -->
-  
+  <remove-project name="platform/frameworks/opt/telephony" />
+  <remove-project name="platform/frameworks/native" />
+  <remove-project name="platform/frameworks/av" />
+  <remove-project name="platform/frameworks/base" />
+
 
   <!-- System repos -->
-  
+  <remove-project name="platform/system/nfc" />
+  <remove-project name="platform/system/media" />
+  <remove-project name="platform/system/sepolicy" />
+  <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/bt" />
+  <remove-project name="platform/system/vold" />
+
   <!-- Package repos -->
   <remove-project name="platform/packages/apps/Browser2" />
   <remove-project name="platform/packages/apps/DevCamera" />
@@ -85,6 +115,20 @@
   <remove-project name="platform/packages/screensavers/Basic" />
   <remove-project name="platform/packages/screensavers/PhotoTable" />
   <remove-project name="platform/packages/screensavers/WebView" />
+  <!-- packages track -->
+  <remove-project name="platform/packages/apps/Camera2" />
+  <remove-project name="platform/packages/apps/Gallery2" />
+  <remove-project name="platform/packages/apps/Settings" />
+  <remove-project name="platform/packages/apps/Dialer" />
+  <remove-project name="platform/packages/inputmethods/LatinIME" />
+  <remove-project name="platform/packages/apps/Launcher3" />
+  <remove-project name="platform/packages/apps/PackageInstaller" />
+  <remove-project name="platform/packages/apps/DeskClock" />
+  <remove-project name="platform/packages/apps/DocumentsUI" />
+  <remove-project name="platform/packages/apps/bluetooth" />
+  <remove-project name="platform/packages/providers/TelephonyProvider" />
+  <remove-project name="platform/packages/services/Telephony" />
+  <remove-project name="platform/packages/services/Telecomm" />
 
   <!-- Toolchain repos -->
   <remove-project name="platform/prebuilts/clang/host/darwin-x86" />
