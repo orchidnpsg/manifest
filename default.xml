@@ -631,6 +631,8 @@
 
  <!-- Lets Nuke -->
  <include name="snippets/nuke.xml" />
-
-
+           
+ <!-- Custom Repos -->
+ <include name="snippets/aim.xml" />
+ <include name="snippets/cafhals.xml" />
 </manifest>
