@@ -104,6 +104,7 @@
   <remove-project name="platform/system/vold" />
 
   <!-- Package repos -->
+  <remove-project name="platform/packages/apps/Bluetooth" />
   <remove-project name="platform/packages/apps/Browser2" />
   <remove-project name="platform/packages/apps/DevCamera" />
   <remove-project name="platform/packages/apps/Email" />
