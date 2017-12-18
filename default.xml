@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-<!--   <remote  name="aosp"
+  <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/"
-           revision="refs/tags/android-8.1.0_r1" /> -->
-
-<remote  name="aosp"
-           fetch="https://android.googlesource.com"
-           review="https://android-review.googlesource.com/" />
-  <default revision="refs/tags/android-8.1.0_r1"
-           remote="aosp"
-           sync-j="8" />
+           revision="refs/tags/android-8.1.0_r1" /> 
 
  					    <!--AOSP PROJECTS -->
 

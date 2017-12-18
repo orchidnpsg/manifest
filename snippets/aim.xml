@@ -5,8 +5,10 @@
             fetch="https://github.com" />
  
    <remote  name="aim"
-           fetch="https://github.com/AIMROM"
-	   revision="o8.1"
+           fetch="https://github.com/AIMROM" />
+
+   <default revision="o8.1"
+           remote="aim"
            sync-f="true"
            sync-c="true"
            sync-j="8" />
@@ -73,8 +75,8 @@
   <project path="packages/apps/SlimRecents" name="packages_apps_SlimRecents" groups="pdk-fs" remote="aim" />
   <project path="packages/apps/AIMOTA" name="packages_apps_aimota" groups="pdk-fs" remote="aim" revision="oreo" />
 <!-- dui -->
-  <project path="external/DUtils" name="android_external_DUtils" remote="aim" revision="o" />
-  <project path="packages/apps/DUI" name="android_packages_apps_DUI" remote="aim" revision="o" />
+  <project path="external/DUtils" name="android_external_DUtils" remote="aim" revision="o8.1" />
+  <project path="packages/apps/DUI" name="android_packages_apps_DUI" remote="aim" revision="o8.1" />
 
 <!-- sepolicy stuffs -->
   <project path="system/sepolicy" name="platform_system_sepolicy" groups="pdk" remote="aim" />
@@ -92,15 +94,15 @@
   <!-- caf repos -->
    
    <!-- Ril -->
-   <project path="hardware/ril-caf" name="hardware_ril" groups="pdk" remote="aim" revision="o-caf" />
-   <project path="hardware/ril" name="hardware_ril" groups="pdk" remote="aim" revision="o" />
+   <project path="hardware/ril-caf" name="hardware_ril" groups="pdk" remote="aim" revision="o8.1-caf" />
+   <project path="hardware/ril" name="hardware_ril" groups="pdk" remote="aim" revision="o8.1" />
    
    <!-- Wlan -->
-   <project path="hardware/qcom/wlan-caf" name="hardware_qcom_wlan" groups="qcom_wlan" remote="aim" revision="o-caf" />
+   <project path="hardware/qcom/wlan-caf" name="hardware_qcom_wlan" groups="qcom_wlan" remote="aim" revision="o8.1-caf" />
    <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" groups="qcom_wlan" remote="aim" /> 
    
    <!-- bt-caf -->
-   <project path="hardware/qcom/bt-caf" name="hardware_qcom_bt" groups="qcom" remote="aim" revision="o-caf" />
+   <project path="hardware/qcom/bt-caf" name="hardware_qcom_bt" groups="qcom" remote="aim" revision="o8.1-caf" />
    <project path="hardware/qcom/bt" name="hardware_qcom_bt" groups="qcom" remote="aim" />
    <project path="packages/apps/Bluetooth" name="packages_apps_bluetooth" groups="pdk-cw-fs,pdk-fs" remote="aim" />
    
@@ -117,7 +119,7 @@
 <!-- ============================ CUSTOM TRACKS START FROM HERE ============================ -->
 
 <!-- AIM -->
-<project path="device/qcom/common" name="android_device_qcom_common" remote="aim" revision="o" />
+<project path="device/qcom/common" name="android_device_qcom_common" remote="aim" revision="o8.1" />
 
 <!-- CRYPTFS_HW -->
 <project path="vendor/qcom/opensource/cryptfs_hw" name="vendor_qcom_opensource_cryptfs_hw" remote="aim"  />
