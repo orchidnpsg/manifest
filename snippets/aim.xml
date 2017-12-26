@@ -118,7 +118,7 @@
 
 <!-- AIM -->
 <project path="device/qcom/common" name="android_device_qcom_common" remote="aim" revision="o8.1" />
-<project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" remote="aim" />
+<project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="aim" revision="o8.1"/>
 
 <!-- CRYPTFS_HW -->
 <project path="vendor/qcom/opensource/cryptfs_hw" name="vendor_qcom_opensource_cryptfs_hw" remote="aim"  />
