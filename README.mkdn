@@ -12,7 +12,7 @@ To get started with the building process, you'll need to get familiar with [Git 
 
 To initialize your local repository, use a command like this:
 
-    repo init -u git://github.com/AIMROM/manifest.git -b o
+    repo init -u git://github.com/AIMROM/manifest.git -b o8.1
 
 Then to sync up:
 
@@ -22,7 +22,7 @@ Additionally, you can define the number of parallel download repo should do:
 
     repo sync -jX -f --force-sync --no-clone-bundle --no-tags
 
-With X being the number of parallel downloads
+While X being the number of parallel downloads
 
  Building The Project
  ----------------------------------
