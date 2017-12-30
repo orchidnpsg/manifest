@@ -41,6 +41,7 @@
    </project>
 
   <project path="bionic" name="android_bionic" groups="pdk" remote="aim" />
+  <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="aim" />
   <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="aim"/>
   <project path="system/core" name="system_core" groups="pdk" remote="aim"/>
   <project path="system/bt" name="android_system_bt" groups="pdk" remote="aim" />
