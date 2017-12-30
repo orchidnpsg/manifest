@@ -126,5 +126,8 @@
 <!-- CRYPTFS_HW -->
 <project path="vendor/qcom/opensource/cryptfs_hw" name="vendor_qcom_opensource_cryptfs_hw" remote="aim"  />
 
+<!-- LineageOS -->
+<project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="los" />
+
 </manifest>
 
