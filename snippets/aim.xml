@@ -9,7 +9,8 @@
 	   revision="o8.1"
            sync-f="true"
            sync-c="true"
-           sync-j="8" />
+	   sync-j="8"
+	   review="srv1.botstack.host" />
 
   <remote  name="los"
             fetch="https://github.com/lineageos"
