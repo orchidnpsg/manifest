@@ -52,3 +52,49 @@ Obtaining the compiled zip
 From the root directory of AIM type following commands in the terminal
 
 	cd $OUT/target/product/$devicecodename/$AIM*.zip
+	
+	
+Uploading to AIMROM Gerrit
+---------------
+
+ You must have local ssh keys on your computer if you do not here is a [guide](http://goo.gl/86CfDP) to generate them.
+
+ Make an account on [Gerrit](http://review.aimrom.org) login  using githubAuth
+ --
+ Add your ssh public key to your account
+
+ Make your changes and commit them
+
+ use the following command to push your commit to gerrit
+
+```bash
+    git push ssh://USERNAME@review.aimrom.org:29418/REPO_NAME HEAD:refs/for/branch-name
+
+  ```
+
+Example:
+```bash
+
+    git push ssh://Anandnv@review.aimrom.org:29418/android_frameworks_base HEAD:refs/for/o8.1
+
+```
+
+## Maintain Authorship ##
+---------------
+Always make sure if you submit a patch/fix that you maintain authorship.
+This is very important to not only us but to the entire open source community. It's what keeps it going and encourages more developers to contribute their work.
+
+If you manually cherry pick a patch/fix add the original author prior to pushing to our gerrit.
+This task is very easy and is usually done after you commit a patch/fix locally.
+
+i.e - Once you type in "git commit -a" the commit message and you have saved it, type in the following:
+
+```bash
+git commit --amend --author "Author <email@address.com>"
+```
+
+So it should look like this once you get all author's information:
+
+```bash
+git commit --amend --author "Anand Ramachandran <anand.nv1998@gmail.com>"
+```
