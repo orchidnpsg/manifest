@@ -24,5 +24,5 @@
   <project path="system/media" name="android_system_media" remote="aim" />
   <project path="external/DUtils" name="android_external_DUtils" remote="aim" revision="n7x"/>
   <project path="packages/apps/DUI" name="android_packages_apps_DUI" remote="aim" revision="n7x"/>
-  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="aim" revision="cm-14.1" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="aim" />
 </manifest>
