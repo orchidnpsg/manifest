@@ -12,6 +12,10 @@
 	   sync-j="8"
 	   review="review.aimrom.org" />
 
+  <remote  name="aimrom-devices"
+           fetch="https://github.com/AIMROM-DEVICES"
+           revision="refs/heads/o8.1" />
+
   <remote  name="los"
      	   fetch="https://github.com/lineageos"
       	   sync-c="true"
