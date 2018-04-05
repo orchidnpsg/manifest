@@ -80,6 +80,8 @@
      <project path="hardware/broadcom/wlan" name="hardware_broadcom_wlan" groups="pdk" remote="gzosp" />
      <project path="hardware/qcom/power" name="android_hardware_qcom_power" groups="qcom,pdk" remote="los" />
      <project path="hardware/qcom/keymaster" name="hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk" remote="aim" />
+     <project path="hardware/qcom/camera" name="hardware_qcom_camera" groups="qcom_camera" remote="aim" />
+     <project path="hardware/qcom/fm" name="hardware_qcom_fm" remote="aim" />
      <project path="hardware/aim/interfaces" name="hardware_aim_interfaces" remote="aim" >
      <copyfile dest="hardware/aim/Android.bp" src="Android.bp"/>
      </project>
@@ -123,12 +125,16 @@
      <project path="packages/apps/SlimRecents" name="packages_apps_SlimRecents" groups="pdk-fs" remote="aim" />
      <project path="packages/apps/AIMOTA" name="packages_apps_aimota" groups="pdk-fs" remote="aim" revision="oreo" />  
      <project path="packages/apps/DUI" name="android_packages_apps_DUI" remote="aim" revision="o8.1" />
-     <project path="packages/apps/freedomhub" name="packages_apps_freedomhub" groups="pdk-fs" remote="aim" />  
+     <project path="packages/apps/freedomhub" name="packages_apps_freedomhub" groups="pdk-fs" remote="aim" />
      <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="aim" />
+     <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="aim" />
+     <project path="packages/apps/Snap" name="packages_apps_Snap" remote="aim" />
      <project path="packages/services/Telephony" name="packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="aim" /> 
      <project path="packages/services/Telecomm" name="packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="aim" />
      <project path="packages/apps/Stk" name="packages_apps_Stk" groups="apps_stk,pdk-fs" remote="gzosp" />
      <project path="packages/apps/Bluetooth" name="packages_apps_bluetooth" groups="pdk-cw-fs,pdk-fs" remote="aim" />
      <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="aim" revision="o8.1"/>
+     <project path="packages/apps/OmniJaws" name="packages_apps_OmniJaws" remote="aim" />
+     <project path="packages/apps/OmniStyle" name="packages_apps_OmniStyle" groups="pdk-fs" remote="aim" />
 
    </manifest>

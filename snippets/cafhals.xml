@@ -55,8 +55,5 @@
   <!-- External -->
    <project path="external/libnetfilter_conntrack" name="external_libnetfilter_conntrack" remote="gzosp" />
    <project path="external/libnfnetlink" name="external_libnfnetlink" remote="gzosp" />
- 
-  <!-- Camera -->
-  <project path="hardware/qcom/camera" name="hardware_qcom_camera" groups="qcom_camera" remote="gzosp" />
- 
+  
 </manifest>
