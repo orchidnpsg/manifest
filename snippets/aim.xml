@@ -97,7 +97,7 @@
      <!-- device repos -->
      <project path="device/qcom/common" name="android_device_qcom_common" remote="aim" revision="o8.1" />
      <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" groups="pdk" remote="aim" />
-     <project path="device/aim/sepolicy" name="device_aim_sepolicy" remote="aim" />
+     <project path="device/aim/sepolicy" name="device_aim_sepolicy" remote="aim" revision="se-8.1" />
      
      <!-- External repos -->
      <project path="external/DUtils" name="android_external_DUtils" remote="aim" revision="o8.1" />
