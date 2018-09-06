@@ -1,6 +1,6 @@
 <img src="https://raw.githubusercontent.com/AIMROM/manifest/N/logo.png">
 
-Aim Rom Oreo source (AOSP) Android 8.1
+Aim Rom Oreo source (AOSP) Android 9.x PIE
 ========
 
 [![](https://github.com/AIMROM/manifest/raw/o/gplus.png)](https://plus.google.com/communities/111507505190229665939)[![](https://github.com/AIMROM/manifest/raw/o/tg.png)](https://t.me/joinchat/AAAAAEGlvThIxMq8yPB1JA)
@@ -44,7 +44,7 @@ Creating directory for where the aimrom repo will be stored and synced
 Now init repo
 
 ```bash
-    repo init -u git://github.com/AIMROM/manifest.git -b o8.1
+    repo init -u git://github.com/AIMROM/manifest.git -b 9.x
 ```
 
 Then to sync up:
