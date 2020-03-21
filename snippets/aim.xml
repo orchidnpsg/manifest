@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <project path="android" name="manifest" remote="aim" />
   <project path="bionic" name="android_bionic" remote="aim" />
   <project path="development" name="android_development" remote="aim" />
   <project path="device/qcom/sepolicy" name="aim_device_qcom_sepolicy_N" remote="aim" revision="N" />
