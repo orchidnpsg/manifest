@@ -1,8 +1,7 @@
 
 <img src="https://raw.githubusercontent.com/AIMROM/manifest/N/logo.png">
 
-Aim Rom Android 10
-========
+
 
 [![](https://github.com/AIMROM/manifest/raw/o/tg.png)](https://t.me/joinchat/AAAAAEGlvThIxMq8yPB1JA)
 
@@ -39,13 +38,13 @@ Giving the repo binary the proper permissions
 Creating directory for where the aimrom repo will be stored and synced
 
 ```bash
-   $ mkdir aim
-   $ cd aim
+   $ mkdir orc
+   $ cd orc
 ```
 Now init repo
 
 ```bash
-    repo init -u git://github.com/AIMROM/manifest.git -b 10.0
+    repo init -u git://github.com/orchidnpsg/manifest.git -b 10.0
 ```
 
 Then to sync up:
@@ -69,7 +68,7 @@ From root directory of AIM type following commands in terminal
 ```bash
 	. build/envsetup.sh
    
-    lunch aim_$devicecodename-$BuildType
+    lunch 
    
 	brunch $devicecodename
 ```
@@ -77,15 +76,7 @@ From root directory of AIM type following commands in terminal
 Example
 ---------------
 
-If your device code name is "goldfish", then:
 
-```bash
-	. build/envsetup.sh
-
-    lunch aim_goldfish-userdebug
-
-	brunch goldfish
-```
 
 Obtaining the compiled zip
 ----------------------------------------------
